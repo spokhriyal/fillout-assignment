@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Fillout.Assignment.Api.props" />
+</Project>

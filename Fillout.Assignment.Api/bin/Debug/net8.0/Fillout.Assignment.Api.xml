@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fillout.Assignment.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Fillout.Assignment.Api.Controllers.FilloutFormsController.GetFormSubmissionsById(System.String,Fillout.Assignment.Api.Models.ExistingFilters,System.Collections.Generic.List{Fillout.Assignment.Api.Models.Filter})">
+             <summary>
+             This API returns a list of weather forecasts.
+             </summary>
+             <remarks>
+             
+             Just for demonstration
+             
+                 limit=2&amp;offset=5&amp;filters=[{"id": "dSRAe3hygqVwTpPK69p5td", "condition": "greater_than", "value": "2024-01-01"}]'
+             
+                 GET {formId}/filteredResponses
+                 {
+                 }
+                 curl --location --globoff 'http://ec2-18-191-212-61.us-east-2.compute.amazonaws.com/cLZojxk94ous/filteredResponses?filters=[{%22id%22%3A%20%22dSRAe3hygqVwTpPK69p5td%22%2C%20%22condition%22%3A%20%22greater_than%22%2C%20%20%22value%22%3A%20%222024-01-01%22}]'
+            
+             </remarks>
+             <param name="Filters">Additional Filters, Example: [{"id": "dSRAe3hygqVwTpPK69p5td", "condition": "greater_than", "value": "2024-01-01"}]</param>
+        </member>
+    </members>
+</doc>
