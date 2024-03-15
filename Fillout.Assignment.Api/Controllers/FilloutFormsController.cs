@@ -20,7 +20,7 @@ public class FilloutFormsController : ControllerBase
     }
 
     /// <summary>
-    /// This API returns a list of weather forecasts.
+    /// This API returns a list of fillout submissions responses.
     /// </summary>
     /// <remarks>
     /// 
